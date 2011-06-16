@@ -1,0 +1,13 @@
+annonce_list:
+  url: /announce/list
+  param: { module: announce, action: list }
+  
+
+announce_show:
+  url: /announce/:id
+  class: sfDoctrineRoute
+  options: { model: Announce, type: object }
+  param: { module: announce, action: show }
+  requirements:
+    id: \d+
+    sf_method: [get]

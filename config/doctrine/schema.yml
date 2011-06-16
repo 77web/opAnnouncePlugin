@@ -1,0 +1,16 @@
+options:
+  charset: utf8
+
+Announce:
+  actAs:
+    Timestampable:
+  columns:
+    id: { type: integer(4), primary: true, autoincrement: true }
+    title: string(255)
+    body: string
+    is_secure: { type: boolean, default: true }
+    is_pc: { type: boolean, default: true }
+    is_mobile: { type: boolean, default: true }
+    is_public: { type: boolean, default: true }
+    publish_date: { type: datetime }
+    is_html: { type: boolean, default: false }

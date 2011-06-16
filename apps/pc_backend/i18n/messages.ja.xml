@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+  <file orginal="global" source-language="en" datatype="plaintext">
+    <body>
+      <trans-unit id="">
+        <source>Add an announcement</source>
+        <target>お知らせ新規登録</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Edit announcement</source>
+        <target>お知らせを編集</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Delete the announcement</source>
+        <target>お知らせを削除する</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Are you sure to delete it?</source>
+        <target>このお知らせを削除しますか？</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Target applications</source>
+        <target>表示対象</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Updated at</source>
+        <target>最終更新日時</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Published</source>
+        <target>公開</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Draft</source>
+        <target>下書き</target>
+      </trans-unit>
+
+      <trans-unit id="">
+        <source></source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

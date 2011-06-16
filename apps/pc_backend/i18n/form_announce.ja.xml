@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+  <file orginal="global" source-language="en" datatype="plaintext">
+    <body>
+      <trans-unit id="">
+        <source>Title</source>
+        <target>タイトル</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Body</source>
+        <target>本文</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Is secure</source>
+        <target>会員限定公開</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Is pc</source>
+        <target>PCに公開</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Is mobile</source>
+        <target>モバイルに公開</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Is public</source>
+        <target>公開</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Publish date</source>
+        <target>公開(予定)日時</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Is html</source>
+        <target>HTMLとして表示</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source></source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

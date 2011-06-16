@@ -1,0 +1,17 @@
+announce_edit:
+  url: /announce/edit/:id
+  class: sfDoctrineRoute
+  options: { model: Announce, type: object }
+  param: { module: announce, action: edit }
+  requirements:
+    id: \d+
+    sf_method: [get, post]
+
+announce_delete:
+  url: /announce/delete/:id
+  class: sfDoctrineRoute
+  options: { model: Announce, type: object }
+  param: { module: announce, action: delete }
+  requirements:
+    id: \d+
+    sf_method: [get, post]

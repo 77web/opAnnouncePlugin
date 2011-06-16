@@ -1,0 +1,7 @@
+homeSuccess:
+  customize:
+    announce_list:
+      template: [announce, latest]
+      is_component: true
+      parts: [information]
+      target: [top]

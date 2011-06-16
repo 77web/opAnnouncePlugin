@@ -1,0 +1,58 @@
+Member:
+  member_1:
+    id: ~
+    name: "OpenPNE君"
+    is_active: 1
+
+MemberConfig:
+  member_address_1:
+    name: "pc_address"
+    value: "sns@example.com"
+    Member: member_1
+  member_mobile_address_1:
+    name: "mobile_address"
+    value: "sns@example.com"
+    Member: member_1
+  member_password_1:
+    name: "password"
+    value: "<?php echo md5('password') ?>"
+    Member: member_1
+
+
+Announce:
+  insecure_announce:
+    id: 1
+    title: "test announce"
+    body: "test body"
+    is_secure: false
+  secure_announce:
+    id: 2
+    title: "test announce"
+    body: "test body"
+    is_secure: true
+  before_pub_date_announce:
+    id: 3
+    title: "test announce"
+    body: "test body"
+    publish_date: "<?php echo date('Y-m-d H:i:s', time() + 60*60*24); ?>"
+  draft_announce:
+    id: 4
+    title: "test announce"
+    body: "test body"
+    is_public: false
+  pc_only_announce:
+    id: 5
+    title: "test announce"
+    body: "test body"
+    is_mobile: false
+  mobile_only_announce:
+    id: 6
+    title: "test announce"
+    body: "test body"
+    is_pc: false
+  html_announce:
+    id: 7
+    title: "test announce"
+    body: "test<br />body"
+    is_html: true
+  
