@@ -1,0 +1,10 @@
+Navigation:
+  backend_side_navigation_announce:
+    type: "backend_side"
+    uri: "announce/list"
+    sort_order: 25
+    Translation:
+      en:
+        caption: "Announcement management"
+      ja_JP:
+        caption: "お知らせ管理"
